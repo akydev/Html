@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box-one .arrow{
+    float: right;
+}
+.box-one{
+    float: left;
+    width: 50%;
+    padding: 40px;
+    /* border-right: 12px solid white; */
+}
+.arrow{
+    float: left;
+}
+.box-two{
+    float: right;
+    width: 50%;
+    padding: 40px 0px;
+    border-left: 12px solid white;
+}
+img{
+    max-width: 100%;
+}
+.cricle-img1{
+    background-color: orange;
+    border: 8px solid white;
+    padding: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: inset 5px 1px 12px 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+.cricle-img2{
+    background-color: blue;
+    border: 8px solid white;
+    padding: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: inset 5px 1px 12px 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+.cricle-img3{
+    background-color: green;
+    border: 8px solid white;
+    padding: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: inset 5px 1px 12px 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+.cricle-img4{
+    background-color: teal;
+    border: 8px solid white;
+    padding: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: inset 5px 1px 12px 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+.content-one{
+    background-color: orange;
+    padding: 10px 80px;
+    position: relative;
+    box-shadow: 2px 4px 12px 2px;
+}
+.content-two{
+    background-color: blue;
+    padding: 10px 80px;
+    position: relative;
+    box-shadow: 2px 4px 12px 2px;
+}
+.content-three{
+    background-color: green;
+    padding: 10px 80px;
+    position: relative;
+    box-shadow: 2px 4px 12px 2px;
+}
+.content-four{
+    background-color: teal;
+    padding: 10px 80px;
+    position: relative;
+    box-shadow: 2px 4px 12px 2px;
+}
+strong{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+small{
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    text-indent: 12px;
+}
+.clear-fix{
+    clear: both;
+}

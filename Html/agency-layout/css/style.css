@@ -1,0 +1,466 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/****************************Section One Start Here***********************************/
+.section-one{
+
+}
+.flex-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    width: 20%;
+}
+.menu{
+    /* width: 70%; */
+    padding-left: 500px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    width: 6%;
+    align-items: center;
+    /* display: inline; */
+    
+}
+.twitter-icon{
+    width: 20%;
+    display: inline;
+}
+.facebook-icon{
+    display: inline;
+    width: 20%;
+}
+.instagram-icon{
+    display: inline;
+    width: 20%;
+}
+
+.content-one{
+    text-align: center;
+    padding: 0px 180px;
+}
+h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    background-color: white;
+    padding: 30px 16px;
+    position: relative;
+    border: 1px solid black;
+}
+.icon-container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #3807fc;
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+}
+.icon-container img{
+    width: 100%;
+    display: block;
+}
+h5{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.card a{
+    padding: 10px 0px;
+    color: blue;
+    text-transform: capitalize;
+}
+
+
+/****************************Section One End Here***********************************/
+
+/****************************Section Two Start Here***********************************/
+.section-two{
+    background-color: #efefef ;
+}
+.flex-container-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 20px 0px;
+}
+.business-img{
+    width: 40%;
+}
+.abt-us{
+    width: 50%;
+    padding-right: 100px;
+}
+.abt-us h2{
+    text-transform: capitalize;
+}
+.points{
+    padding-bottom: 20px;
+}
+.points b{
+    display: block;
+    padding: 6px 0px;
+}
+.abt-us a{
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    padding: 8px 12px;
+}
+/****************************Section Two End Here***********************************/
+
+/****************************Section Three Start  Here***********************************/
+.section-three{
+    background-color: #efefef;
+}
+.content-two{
+    text-align: center;
+    padding: 10px 180px;
+}
+.content-two h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.flex-card-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+
+}
+.box{
+    background-color: white;
+    width: 22%;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.box-icon img{
+    width: 26%;
+}
+/****************************Section Three End  Here***********************************/
+
+/****************************Section Four Start  Here***********************************/
+.section-four{
+    background-color: #efefef;
+}
+.section-four .container{
+    padding: 0px 50px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.title h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.flex-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile-card{
+    width: 20%;
+    padding-bottom: 20px;
+}
+.name-post h4{
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name-post small{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/****************************Section Four End  Here***********************************/
+
+/****************************Section Five Start  Here***********************************/
+.section-five{
+    background-color: #efefef;
+}
+.flex-achiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content{
+    width: 20%;
+}
+.flex-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.short-details{
+    width: 40%;
+    padding-left: 10px;
+}
+.short-details h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.short-details p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-five .container{
+    padding-bottom: 20px;
+}
+/****************************Section Five End  Here***********************************/
+
+/****************************Section Six Start  Here***********************************/
+.section-six{
+    background-color: blue;
+}
+.flex-partner-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.partner-logo{
+    width: 20%;
+    padding: 40px;
+}
+/****************************Section Six End  Here***********************************/
+
+/****************************Section Seven Start  Here***********************************/
+.section-seven{
+    background-color: #efefef;
+}
+.section-seven .container{
+    padding-bottom: 20px;
+}
+.flex-client{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: ; */
+    justify-content: space-between;
+}
+.client{
+    width: 44%;
+    background-color: rgb(221, 219, 219);
+    margin-bottom: 20px;
+    padding: 40px 0px;
+}
+.profile-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    /* top: 50px; */
+    /* left: 50px; */
+    /* right: 5px; */
+    z-index: 1;
+}
+.profile-photo img{
+    width: 100%;
+    /* height: auto; */
+    display: block;
+}
+.profile-name{
+    width: 60%;
+    background: linear-gradient(to right, #66ffa6, #8e5eff);
+    text-transform: capitalize;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.content-details{
+    padding: 6px 30px 6px 20px;
+
+}
+.profile-name h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hr{
+    width: 18%;
+}
+.content-details strong{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/****************************Section Seven End  Here***********************************/
+
+/****************************Section Eight Start  Here***********************************/
+iframe{
+    width: 100%;
+    height: 300px;
+}
+.section-eight{
+    background-color: #efefef;
+}
+.flex-form{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -100px;
+}
+.form{
+    width: 70%;
+    padding: 30px 20px;
+    background-color: #f6f5f5;
+}
+.address{
+    width: 30%;
+}
+.form h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 8px;
+}
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fName{
+    width: 48%;
+    margin-bottom: 20px;
+}
+.email{
+    width: 48%;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    height: 36px;
+    padding: 8px 16px;
+    text-transform: capitalize;
+}
+textarea{
+    width: 100%;
+    padding: 8px 16px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.address{
+    background: linear-gradient(to top, #66ffa6, #8e5eff);
+    padding: 36px 26px;
+}
+.flex-address{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.address-details{
+    text-transform: capitalize;
+    color: white;
+}
+.address-details b{
+    font-size: 24px;
+}
+.social-media-icon{
+    text-transform: capitalize;
+}
+.social-media-icon img{
+    width: 12%;
+}
+/****************************Section Eight End  Here***********************************/
+
+/****************************Section Nine Start  Here***********************************/
+.section-nine{
+    /* background: url('image/bg_image_three.jpeg'); */
+    /* background-image: url('image/'); */
+}
+.section-nine .container{
+    padding: 40px 20px;
+}
+
+.flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fImage{
+    width: 22%;
+}
+.fAddress{
+    width: 22%;
+}
+.link{
+    width: 22%;
+}
+.link h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.link p{
+    text-transform: capitalize;
+}
+address{
+    text-transform: capitalize;
+}
+address strong{
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/****************************Section Nine End  Here***********************************/

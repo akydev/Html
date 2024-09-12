@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /*background-color: white;*/
+    margin: 0;
+    padding: 0;
+}
+section .container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0px;
+}
+/*********************Header start here*******************************/
+header{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1px;
+}
+/*********************Header end here*********************************/
+
+/*********************Footer end here*********************************/
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+/*********************Footer end here*********************************/
+
+/*********************Section one start here*******************************/
+.section-one{
+    background-color: #EFEFEF;
+}
+h1{
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+}
+button{
+    background-color: #69432A;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 40px;
+    border: none;
+}
+img{
+    max-width: 100%;
+}
+.section-one .image{
+    width: 30%;
+    float: right;
+}
+.content-one{
+    width: 70%;
+    float: left;
+}
+.clear-fix{
+    clear: both;
+}
+/*********************Section one end here*******************************/
+
+/*********************Section two start here*******************************/
+.intro h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.section-two .paragraph{
+    text-align: center;
+}
+.section-two .image{
+    width: 30%;
+    float: left;
+}
+.content-two{
+    width: 70%;
+    float: right;
+}
+h3{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.section-two p{
+    text-align: justify;
+}
+/*********************Section two end here*********************************/
+
+/*********************Section three start here*******************************/
+.section-three{
+    background-color: #EFEFEF;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.card{
+    width: 30%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 3%;
+    float: left;
+}
+.card-title{
+    color: silver;
+    font-size: 20px;
+}
+.card-details{
+    text-transform: uppercase;
+}
+.card-price{
+    text-transform: capitalize;
+}
+/*********************Section three end here*********************************/
+
+/*********************Section four start here*******************************/
+.section-four .image{
+    width: 30%;
+    float: right;
+}
+.content-four{
+    float: left;
+    width: 70%;
+}
+.para{
+    text-align: justify;
+    padding-right: 20px;
+}
+/*********************Section four end here*********************************/

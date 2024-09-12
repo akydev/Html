@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+section{
+    box-shadow: 0px -10px 20px 0px;
+}
+strong{
+    text-transform:capitalize;
+    padding: 10px 20px;
+    
+}
+.col-one{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 6px 20px;
+    border-bottom: 2px solid black;
+}
+.col-two{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 6px 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.col-three{
+    float: right;
+    width: 33%;
+    text-align: center;
+    padding: 6px 20px;
+}
+.clear-fix{
+    clear: both;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+}

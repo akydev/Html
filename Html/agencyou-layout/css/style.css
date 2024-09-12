@@ -1,0 +1,890 @@
+
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container-one{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+img{
+    max-width: 100%;
+}
+.box-shadow{
+    box-shadow: 0px 0px 14px 0px #00000030;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    /* padding: 12px 16px; */
+}
+li{
+    display: inline;
+}
+li a:hover{
+    background-color: #000000;
+}
+.image{
+    width: 50%;
+}
+.content{
+    width: 50%;
+}
+.title-content{
+    padding: 0px 340px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title-content h2{
+    font-size: 42px;
+    text-transform: capitalize;
+}
+.title-content p{
+    line-height: 28px;
+}
+
+
+/****************************************Section One Start Here*******************************************/
+.section-one{
+position: relative;
+}
+.bg-image{
+    width: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 18, 173, 0.6);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 166px;
+    text-align: center;
+}
+.logo a h5{
+    color: #ffffff;
+    font-size: 18px;
+}
+.menu {
+    padding-left: 300px;
+    margin-right: 20px;
+}
+.menu a{
+    color: #ffffff;
+    padding: 12px 20px;
+}
+header .quote{
+    background-color: #f20f0f;
+    color: #ffffff;
+    padding: 12px 20px;
+}
+.welcom-message{
+    font-family: Poppins;
+    padding-right: 640px;
+    padding-top: 200px;
+    color: #ffffff;   
+    padding-bottom: 200px; 
+    position: absolute;
+    z-index: 1;
+    top: -800px;
+}
+.welcom-message h1{
+    text-transform: capitalize;
+    font-size: 44px;
+    /* font-weight: 900; */
+    /* color: #ffffff; */
+}
+.welcom-message p{
+    padding: 12px 0px;
+    line-height: 28px;
+}
+.a-first{
+    background-color: #f20f0f;
+    color: #ffffff;
+    padding: 12px 22px;
+    margin-right: 8px;
+}
+.a-first .fa-arrow-right{
+    padding: 0px 0px 0px 8px;
+}
+.a-second{
+    color: #f20f0f;
+    background-color: #f3eded;
+    padding: 12px 22px;
+}
+.a-second .fa-arrow-right{
+    padding: 0px 0px 0px 8px;
+
+}
+.flex-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* .logo{
+    width: 20%;
+}
+.menu{
+    width: 70%;
+} */
+/****************************************Section One End Here*******************************************/
+
+/***************************************Care Attention Start Here*******************************************/
+.care-attention{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.flex-care-attention{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content{
+    padding-left: 24px;
+}
+.content h2{
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.content h2 .red{
+    color: #f20f0f;
+}
+.content p{
+    line-height: 28px;
+}
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 14px 0px;
+}
+.icon-one{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #140D52;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fa-user-shield{
+    font-size: 26px;
+}
+.icon-two{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f20f0f;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fa-file-code{
+    font-size: 26px;
+}
+.content a{
+    background-color: #f20f0f;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.content .fa-play{
+    background-color: #140D52;
+    color: #ffffff;
+    padding: 16px 20px;
+}
+/***************************************Care Attention End Here*******************************************/
+
+
+/******************************************Our Skills Start Here***************************************************/
+.our-skill{
+    background-color: #140D52;
+    padding: 40px 0px;
+}
+.flex-our-skill{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.flex-our-skill .content{
+    padding-left: 0px;
+    padding-right: 40px;
+}
+.card-image{
+    width: 50%;
+    background-color: #ffffff;
+}
+.icon-bg-red{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f20f0f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.icon-bg-red .fa-check{
+    color: #ffffff;
+}
+/******************************************Our Skills End Here***************************************************/
+
+
+/****************************************Our Services Start Here*******************************************/
+.our-services{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.our-services .title-content .red{
+    color: #f20f0f;
+}
+.flex-our-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-card{
+    width: 32%;
+    background-color: #ffffff;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    /* padding-bottom: 60px; */
+}
+.services-card b{
+    display: block;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.services-card p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 16px 0px;
+    margin-bottom: 12px;
+}
+.services-card a{
+    padding: 12px 20px;
+    background-color: #f20f0f;
+    color: #ffffff;
+    /* display: block; */
+}
+.services-card .fa-arrow-right{
+    padding-right: 0;
+    padding-left: 10px;
+}
+.services-card .fa-computer{
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+.services-card .fa-magnifying-glass-plus{
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+.services-card .fa-cart-shopping{
+    font-size: 100px;
+    color: black;
+    padding-bottom: 40px;
+}
+.services-card .fa-uikit{
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+.services-card .fa-chart-pie{
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+/****************************************Our Services End Here*******************************************/
+
+/****************************************Speed In Work Start Here*******************************************/
+.speed-work{
+    background-color: #140D52;
+    padding: 40px 0px;
+}
+.flex-speed-work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-speed-work .content .flex-row .icon-bg-red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f20f0f;
+    color:#ffffff;
+}
+/* .icon{
+    width: 20%;
+} */
+.short-content{
+    width: 90%;
+    padding-left: 10px;
+}
+.short-content strong{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.fa-lightbulb{
+    font-size: 26px;
+}
+.fa-searchengin{
+    font-size: 26px;
+}
+/****************************************Speed In Work End Here*******************************************/
+
+/****************************************Our Works Start Here*******************************************/
+.our-works{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.our-works .title-content .red{
+    color: #f20f0f;
+}
+.our-works .title-content p{
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.category .active{
+    background-color: #f20f0f;
+    color: #ffffff;
+}
+.category li a:hover{
+    background-color: #f20f0f;
+    color: #ffffff;
+}
+.category a{
+    padding: 8px 20px;
+    border: 1px solid #f20f0f;
+    color: #000000;
+}
+.flex-image-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-card{
+    width: 30%;
+    margin: 10px 10px;
+    /* padding: 10px 10px; */
+}
+/****************************************Our Works End Here*******************************************/
+
+/****************************************Number Section Start Here*******************************************/
+.section-number{
+    background-color: #140D52;
+    padding: 40px 0px;
+}
+.flex-number{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.number strong{
+    font-size: 40px;
+}
+.number-last strong{
+    font-size: 40px;
+}
+.number{
+    width: 25%;
+    padding: 4px 40px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+}
+.number-last{
+    width: 20%;
+    padding: 4px 40px;
+    text-align: center;
+}
+
+/****************************************Number Section End Here*******************************************/
+
+
+/****************************************Our Team  Start Here*******************************************/
+.our-team{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.our-team .title-content .red{
+    color: #f20f0f;
+}
+.flex-team-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-card{
+    width: 32%;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.team-card p{
+    color: #f20f0f;
+}
+
+/****************************************Our Team  End Here*******************************************/
+
+/****************************************Our Clients Start Here*******************************************/
+.our-clients{
+    background-color: #140D52;
+    padding: 40px 0px;
+}
+.our-clients .title-content{
+    color: #ffffff;
+}
+.our-clients .title-content .red{
+    color: #f20f0f;
+}
+.flex-profile-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile-card{
+    width: 32%;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details p{
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+.profile-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.profile-card h3{
+    text-transform: capitalize;
+}
+.profile-card small{
+    color: #f20f0f;
+    display: block;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+.fa-star{
+    color: #f20f0f;
+    padding: 0px 2px;
+    font-size: 12px;
+}
+.fa-comment{
+    color: #ffffff;
+}
+/****************************************Our Clients End Here*******************************************/
+
+/****************************************Our Pricing Start Here*******************************************/
+.our-pricing{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.our-pricing .title-content .red{
+    color: #f20f0f;
+}
+.flex-our-pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pricing-card{
+    width: 32%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+}
+.pricing-card strong{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.pricing-card b{
+    font-size: 24px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.pricing-card p{
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+.pricing-card a{
+    text-align: center;
+    padding: 14px 18px;
+    background-color: #f20f0f;
+    color: #ffffff;
+}
+.fa-check{
+    color: #f20f0f;
+    padding: 8px 12px;
+}
+.fa-cart-shopping{
+    color: #ffffff;
+    padding: 10px;
+}
+.fa-coins{
+    display: block;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+.fa-hand-holding-dollar{
+    display: block;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+.fa-dollar-sign{
+    display: block;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+/****************************************Our Pricing End Here*******************************************/
+
+/****************************************Latest Blog Start Here*******************************************/
+.latest-blog{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.latest-blog .title-content .red{
+    color: #f20f0f;
+}
+.flex-blog-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blog-card{
+    width: 32%;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+.blog-card-details{
+    padding: 26px;
+}
+.blog-card-details a{
+    background-color: #f20f0f;
+    color: #ffffff;
+    padding: 12px 16px;
+}
+.blog-card-details h2{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.blog-card-details p{
+    line-height: 26px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+.fa-calendar-days{
+    font-size: 14px;
+    color: #f20f0f;
+    padding-right: 8px;
+
+}
+.fa-user{
+    font-size: 14px;
+    color: #f20f0f;
+    padding: 0px 8px;
+}
+
+/****************************************Latest Blog End Here*******************************************/
+
+/****************************************Contact Us Start Here*******************************************/
+.contact-us{
+    background-color: #f8f8f8;
+    padding: 40px 0px;
+}
+.contact-us .title-content .red{
+    color: #f20f0f;
+}
+.flex-contact-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-card{
+    width: 32%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 22px;
+    margin-bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f20f0f; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-location-dot{
+    color: #ffffff;
+    font-size: 24px;
+}
+.fa-mobile-screen-button{
+    color: #ffffff;
+    font-size: 24px;
+}
+.fa-envelope-open-text{
+    color: #ffffff;
+    font-size: 24px;
+}
+.address{
+    padding-top: 20px;
+}
+.address strong{
+    font-size: 18px;
+    text-transform: capitalize;
+    display: block;
+    padding: 16px 0px;
+}
+.address p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.address a{
+    display: block;
+    color: #000000;
+}
+.flex-map-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.map{
+    width: 50%;
+}
+.form{
+    width: 50%;
+    padding-left: 22px;
+}
+.flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fName{
+    width: 48%;
+    margin-bottom: 26px;
+}
+.email{
+    width: 48%;
+    margin-bottom: 26px;
+}
+.phone{
+    width: 48%;
+    margin-bottom: 26px;
+}
+input{
+    text-transform: capitalize;
+    width: 100%;
+    height: 36px;
+    padding: 8px 12px;
+    border: none;
+}
+select{
+    text-transform: capitalize;
+    width: 100%;
+    height: 36px;
+    padding: 8px 12px;
+    border: none;
+}
+textarea{
+    text-transform: capitalize;
+    width: 100%;
+    height: 190px;
+    padding: 8px 12px;
+    margin-bottom: 26px;
+    border: none;
+    font-size: 14px;
+}
+button{
+    text-transform: capitalize;
+    padding: 12px 16px;
+    background-color: #f20f0f;
+    color: #ffffff;
+    border: none;
+}
+button .fa-arrow-right{
+    padding: 4px 4px 4px 10px;
+}
+.map{
+    width: 600px;
+    height: 450px;
+}
+/****************************************Contact Us End Here*******************************************/
+
+
+/****************************************Last Section Start Here*******************************************/
+.last-section{
+    background-color: #140D52;
+    padding: 40px 0px;
+}
+.flex-about-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.about-us{
+    width: 24%;
+}
+.about-us p{
+    line-height: 26px;
+    padding-bottom: 26px;
+}
+.email{
+    background-color: #241b67;
+    width: 100%;
+}
+.usefull-link{
+    width: 24%;
+}
+.help-link{
+    width: 24%;
+}
+.newsletter{
+    width: 24%;
+}
+.newsletter p{
+    line-height: 26px;
+    padding-bottom: 36px;
+}
+.last-section h4{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.last-section a{
+    color: #ffffff;
+    /* display: block; */
+}
+.red-line{
+    width: 20%;
+}
+.fa-facebook-f{
+    font-size: 16px;
+    padding: 12px 16px;
+    background-color: #241b67;
+    margin-right: 4px;
+}
+.fa-twitter{
+    font-size: 16px;
+    padding: 12px;
+    background-color: #241b67;
+    margin-right: 4px;
+}
+.fa-instagram{
+    font-size: 16px;
+    padding: 12px;
+    background-color: #241b67;
+    margin-right: 4px;
+
+}
+.fa-pinterest{
+    font-size: 16px;
+    padding: 12px;
+    background-color: #241b67;
+}
+.fa-arrow-right{
+    padding: 9px 12px;
+}
+/****************************************Last Section End Here*******************************************/
+
+
+
+/****************************************Footer Start Here*******************************************/
+.footer{
+    background-color: #241b67;
+    position: relative;
+}
+.flex-copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.copyright{
+    width: 50%;
+}
+.top{
+    width: 10%;
+}
+.copyright{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+footer a{
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+}
+.fa-up-long{
+    padding: 18px;
+    background-color: #f20f0f;
+    color: #ffffff;
+
+}
+/****************************************Footer End Here*******************************************/
+
+
+
+
+
+
+
+
+
+

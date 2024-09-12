@@ -1,0 +1,30 @@
+body{
+      background-color: bisque;
+    /*background-image: url('file:///C:/Users/SAI/OneDrive/Desktop/Img/img1.jpg');*/
+      background-repeat: no-repeat;
+    /*background-attachment: fixed; 
+      background-size: cover;*/
+   /* background-size: 100%,100%;*/
+
+}
+h1{
+    color:rgb(41, 11, 235);
+}
+p{
+    color:red;
+}
+div{
+
+    background-color: yellow;
+}
+
+#header{
+        background-color: red;
+}
+span{
+    text-align: center;
+    border: 2px solid black;
+    display: block;
+    float: left;
+    
+}

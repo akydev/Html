@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background: yellowgreen;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: tomato;
+    text-align: center;
+    color: white;
+    padding: 40px;    
+}
+.footer{
+    background: tomato;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+        width: 200px;
+        float: left;
+}
+.menu{
+    list-style-type: none;
+    float:right;
+    background: #333333;
+    padding: 20px;
+    margin: 0;
+    
+}
+.clear-fix{
+    clear: both;
+}
+li{
+    float: left;
+}
+li a{
+    background: lightblue;
+    text-decoration: none;
+    color: black;
+    padding: 10px 60px;
+    display: block;
+    text-transform: capitalize;
+    
+}
+li a:hover{
+            background: #111111;
+}

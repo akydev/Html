@@ -1,0 +1,221 @@
+@media only screen and (max-width: 1024px) {
+  .section-one{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hTitle{
+    padding: 8px 0px;
+    font-size: 24px;
+  }
+  .container-logo{
+    /* max-width: 1080;
+    margin: auto; */
+  }
+  .logo{
+    width: 20%;
+  }
+  .image{
+    width: 40%;
+  }
+  .content-one{
+    padding-right: 40px;
+  }
+  h1{
+    font-size: 38px;
+  }
+  .para-one{
+    font-size: 22px;
+    padding-right: 70px;
+    line-height: 30px;
+  }
+  a{
+    width: 250px;
+    padding: 16px 40px;
+    font-size: 22px;
+  }
+  .section-two{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h2{
+    font-size: 36px;
+  }
+  .paragraph{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .flex-container-two{
+    align-items: center;
+  }
+  .content-two{
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+  h5{
+    font-size: 38px;
+  }
+  .para{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  strong{
+    font-size: 25px;
+  }
+  .section-three{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h3{
+    font-size: 36px;
+    padding-bottom: 30px;
+  }
+  .card{
+    width: 31%;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .card-details{
+    font-size: 20px;
+    padding-right: 50px;
+  }
+  .section-four{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .flex-container-four{
+    align-items: center;
+  }
+  h4{
+    font-size: 36px;
+  }
+  .fTitle{
+    font-size: 22px;
+  }
+  }
+
+  @media only screen and (max-width: 912px) {
+    .content-one{
+      padding: 0;
+    }
+    .para-one{
+      font-size: 28px;
+      line-height: 38px;
+    }
+    .paragraph{
+      font-size: 26px;
+      line-height: 38px;
+    }
+    .para{
+      font-size: 28px;
+      line-height: 38px;
+    }
+    .card{
+      width: 100%;
+    }
+    .card-title{
+      font-size: 44px;
+    }
+    .card-details{
+      font-size: 30px;
+      padding-right: 80px;
+    }
+    strong{
+      font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .hTitle{
+      font-size: 36px;
+    }
+    .logo{
+      width: 30%;
+    }
+    .section-one{
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 30px;
+    }
+    .image{
+      width: 100%;
+    }
+    .content-one{
+      width: 100%;
+    }
+    h1{
+      font-size: 48px;
+    }
+    .para-one{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    a{
+      width: 280px;
+      padding: 20px 40px;
+      font-size: 36px;
+    }
+    .section-two{
+      padding: 60px 40px;
+    }
+    h2{
+      font-size: 46px;
+      padding-bottom: 10px;
+    }
+    .paragraph{
+      font-size: 36px;
+      line-height: 46px;
+      padding-bottom: 60px;
+    }
+    .content-two{
+      width: 100%;
+    }
+    h5{
+      font-size: 46px;
+      padding: 40px 0px;
+    }
+    .para{
+      font-size: 36px;
+      line-height: 46px;
+      padding-bottom: 20px;
+    }
+    strong{
+      font-size: 36px;
+    }
+    .section-three{
+      padding: 40px;
+    }
+    h3{
+      font-size: 46px;
+      padding-bottom: 40px;
+    }
+    .card{
+      width: 100%;
+      margin-bottom: 26px;
+    }
+    .card-title{
+      font-size: 42px;
+    }
+    .card-details{
+      font-size: 36px;
+      padding-right: 220px;
+    }
+    .image{
+      text-align: center;
+    }
+    .section-four{
+      padding: 40px;
+    }
+    .content-four{
+      width: 100%;
+      padding-right: 0;
+    }
+    h4{
+      font-size: 46px;
+    }
+    .fTitle{
+      font-size: 32px;
+    }
+  }
+  

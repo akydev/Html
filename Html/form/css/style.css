@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    color: brown;
+    text-align: center;
+    text-transform: capitalize;
+}
+label{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+    color: burlywood;
+    /* padding-left: 20px; */
+    padding: 0px 20px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.content{
+    /* padding: 20px 10px; */
+    padding: 4px 10px;
+}
+.input-one{
+    width: 50%;
+    float: left;
+}
+.input-two{
+    width: 50%;
+    float: right;
+}
+.space{
+    padding-left: 20px;
+}
+.clear-fix{
+    clear: both;
+}

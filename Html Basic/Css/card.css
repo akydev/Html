@@ -1,0 +1,53 @@
+body{
+        background-color: rgb(67, 226, 14);
+        
+}
+/*.main{
+    background-color: aqua;
+}*/
+div{
+    font-family: monospace;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+    text-justify:auto;
+
+}
+h2{
+    font-family: 'Times New Roman';
+    font-size: 36px;
+    text-align: center;
+    background-color: coral;
+    padding: 20px;
+    margin: 20px;
+}
+div .city{
+    float: left;
+}
+
+div .city_london{
+    float: left;
+}
+h1{
+    font-family: monospace;
+    font-size: 56px;
+    font-weight: bold;
+    color: blue;
+    background-color: antiquewhite;
+    padding: 56px;
+    text-align: center;
+    margin-top: 10%;
+}
+.city{
+    background-color: #333333;
+    color: #ffffff;
+    border: 2px solid burlywood;
+    margin: 20px;
+    padding: 36px;
+    width: 20%;
+}
+
+.city_london{
+    background-color: aquamarine;
+}

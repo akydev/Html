@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 100%;   
+}
+.logo{
+    width: 10%;
+}
+.menu{
+    /* width: 80%; */
+}
+ul{
+    list-style: none;
+    /* padding: 10px 20px; */
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-transform: capitalize;
+    /* text-decoration: none; */
+    padding: 10px 20px;
+    display: inline;
+}

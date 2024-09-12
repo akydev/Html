@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*******************************Global Container Width*******************************************/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/*******************************Global Container Width*******************************************/
+
+/*******************************Header Section*******************************************/
+header{
+    background-color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hTitle{
+    text-align: center;
+    padding: 4px 0px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+/*******************************Header Section*******************************************/
+
+/*******************************Footer Section*******************************************/
+
+footer{
+    background-color: gray;
+}
+.fTitle{
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+/*******************************Footer Section*******************************************/
+img{
+    max-width: 100%;
+}
+.image{
+    width: 30%;
+}
+/***********************************Logo**********************************************************/
+.container-logo{
+    max-width: 1300px;
+    margin: auto;
+}
+.logo{
+    width: 10%;
+    padding-top: 20px;
+}
+/***********************************Logo**********************************************************/
+
+/*******************************Section One Start Here*******************************************/
+.section-one{
+    background-color: #efefef;
+}
+.flex-container-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.content-one{
+    width: 60%;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.para-one{
+    padding: 30px 0px;
+    padding-right: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+a{
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: brown;
+    color: white;
+    padding: 10px 40px;
+}
+/*******************************Section One End Here*******************************************/
+
+/*******************************Section Two Start Here*******************************************/
+.section-two{
+    padding: 40px 0px;
+}
+.intro{
+    max-width: 800px;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.paragraph{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+.flex-container-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+.content-two{
+    width: 60%;
+    padding-left: 50px;
+    padding-right: 180px;
+}
+strong{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+    padding: 20px 0px;
+}
+/*******************************Section Two End Here*******************************************/
+
+/*******************************Section Three Start Here*******************************************/
+.section-three{
+    background-color: #efefef;
+    padding: 40px 0px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex-container-three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 40px 0px; */
+}
+.card{
+    width: 30%;
+    border: 1px solid black;
+    /* padding: 20px 10px; */
+    padding: 20px;
+}
+.card-title{
+    font-size: 20px;
+    color: silver;
+    padding-top: 0px;
+}
+.card-details{
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 150px;
+}
+.card-price{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*******************************Section Three End Here*******************************************/
+
+/*******************************Section Four Start Here*******************************************/
+.flex-container-four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 20px 0px;
+}
+.content-four{
+    width: 60%;
+    padding-right: 60px;
+
+}
+.para{
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+/*******************************Section Four End Here*******************************************/
